@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Back to Google Search</a></li>
+            </ul>
+        </nav>
+
+        <div class="container advanced">
+            <form id="advanced" action="https://www.google.com/search">
+
+                <div class="item">
+                    <div class="subitem">
+                        <h2>Find pages with...</h2>
+                    </div>
+                    <div class="subitem" style="min-width: 540px;">
+                    </div>
+                    <div class="subitem">
+                        <span style="color: #777777; font-weight: 600;">To do this in the search box.</span>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="subitem-label">
+                        <label>all these words:</label> 
+                    </div>
+                    <div class="subitem">
+                        <input class="advanced" type="text" name="as_q">
+                    </div>
+                    <div class="subitem">
+                        <p>Type the important words: <span>winter hoarfrost</span></p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="subitem-label">
+                        <label for="">this exact word or phrase:</label>
+                    </div>
+                    <div class="subitem">
+                        <input class="advanced" type="text" name="as_epq">
+                    </div>
+                    <div class="subitem">
+                        <p>Put exact words in quotes: <span>"frost flower"</span></p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="subitem-label">
+                        <label for="">any of these words:</label>
+                    </div>
+                    <div class="subitem">
+                        <input class="advanced" type="text" name="as_oq">
+                    </div>
+                    <div class="subitem">
+                        <p>Type OR between all the words you want: <span>trees OR weeds OR grasses</span></p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="subitem-label">
+                        <label for="">none of these words:</label>
+                    </div>
+
+                    <div class="subitem">
+                        <input class="advanced" type="text" name="as_eq">
+                    </div>
+                    <div class="subitem">
+                        <p>Put a minus sign just before words that you don't want: <span>-windows</span></p>
+                    </div>
+
+                </div>
+
+                <div class="item sbt">
+                    <input type="submit" value="Advanced Search">
+                </div>
+
+            </form>
+        </div>
+    </body>
+</html>
